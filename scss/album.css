@@ -1,0 +1,108 @@
+.album-section {
+  margin: 120px 0;
+}
+
+.album-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-card__box1 {
+  background-image: url(/images/album-1__bg.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  width: 350px;
+  height: 380px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 32px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.album-card__box2 {
+  background-image: url(/images/album-2__bg.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  width: 350px;
+  height: 380px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 32px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.album-card__box3 {
+  background-image: url(/images/album-3__bg.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  width: 350px;
+  height: 380px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 32px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.album-card__box4 {
+  background-image: url(/images/album-4__bg.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  width: 350px;
+  height: 380px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 32px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.album-card__box5 {
+  background-image: url(/images/album-5__bg.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  width: 350px;
+  height: 380px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 32px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.album-card__box6 {
+  background-image: url(/images/album-6__bg.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  width: 350px;
+  height: 380px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 32px;
+  color: #ffffff;
+  white-space: nowrap;
+}/*# sourceMappingURL=album.css.map */

@@ -1,0 +1,140 @@
+.zayafka {
+    background-image: url(/images/footer-bg.jpg);
+    background-size: cover;
+    max-height: 1000px;
+    
+}
+
+.zayafka-section {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.zayafka-section p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.zayafka-section__items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #ffffff;
+}
+
+.zayafka-section__items h1{
+    font-size: 48px;
+    line-height: 52px;
+}
+
+
+.zayafka-section__items p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.zafayka-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.zafayka-inputs input {
+    width: 540px;
+    height: 56px;
+    border-radius: 6px;
+    border: none;
+    padding: 0px 20px;
+    color: #777;
+    font-size: 18px;
+}
+
+.zafayka-inputs input:focus {
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+}
+
+.zafayka-inputs {
+    border: none;
+} 
+
+.zayafka-section__icons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: start;
+    align-items: start;
+    color: #ffffff;
+    width: 540px;
+    margin-left: 330px;
+    font-family: sans-serif;
+    // padding: 0px 260px;
+}
+.zayafka-section__icons p {
+    font-size: 18px;
+}
+
+.zayafka-icons__sxems {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.zayafka-sxems__item {
+    display: flex;
+    gap: 16px;
+    justify-content: start;
+    align-items: start;
+}
+
+.zayafka-button button {
+    width: 540px;
+    height: 56px;
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: #FB8500;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+
+    .zayafka-section {
+        padding: 40px 0px;
+    }
+    
+    .zayafka-section__items h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .zayafka-section__items p {
+        font-size: 16px;
+    }
+
+    .zafayka-inputs input {
+        width: 380px;
+        height: 40px;
+        font-size: 16px;
+        padding: 0 14px;
+    }
+
+    .zayafka-section__icons {
+        margin-left: 20px;
+    }
+
+    .zayafka-button button {
+        width: 400px;
+    }
+}    

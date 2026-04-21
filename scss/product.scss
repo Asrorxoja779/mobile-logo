@@ -1,0 +1,138 @@
+.product {
+    margin-top: 120px;
+    // background-image: url(/images/product-bg__.jpg)
+    background-color: rgb(167, 165, 163);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1340px;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    font-family: sans-serif;
+    padding: 120px 150px;
+}
+
+.product-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.product-our__box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 350px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.product-our__boxnone {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 350px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.product-our__boxs {
+    display: flex;
+    gap: 30px;
+}
+
+.product-box__icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding:22px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+.product-box__icon img {
+    position: absolute;
+}
+
+.product-box__items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.product-box__items p {
+    font-size: 18px;
+    line-height: 130%;
+    color:#ffffff;
+}
+
+.product-box__items h2 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.product-title__sistem h1 {
+    font-size: 64px;
+}
+
+.product-title__name {
+    color: #219EBC;
+}
+
+.product-title__sistem {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+
+    .product {
+        height: 1200px;
+    }
+
+    .product-section {
+        padding: 20px;
+    }
+
+    product-our__boxs {
+        gap: 14px;
+    }
+
+    .product-our__boxnone {
+        display: none;
+    } 
+
+    .product-box__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .product-box__icon img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .product-title__sistem h1 {
+        font-size: 40px;
+    }
+
+    product-box__items h2 {
+        font-size: 20px;
+        color: #f0f0f0;
+    }
+
+    .product-box__items p {
+        font-size: 14px;
+    }
+
+}    

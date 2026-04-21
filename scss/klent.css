@@ -1,0 +1,62 @@
+.klent {
+  background-image: url(/images/client-bg.svg);
+  background-size: cover;
+  max-height: 618px;
+}
+
+.klent-section {
+  padding: 120px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.klent-section__items {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #ffffff;
+}
+
+.klent-section__items h1 {
+  font-size: 64px;
+}
+
+.klent-section__items p {
+  font-size: 24px;
+}
+
+.klent-section__logs {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.klent-section__logsnone {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+  .klent-section {
+    padding: 60px 0px;
+  }
+  .klent-section__items h1 {
+    font-size: 40px;
+    color: #f1f1f1;
+  }
+  .klent-section__items p {
+    font: 18px;
+  }
+  .klent-section__logs img {
+    width: 180px;
+    height: 100px;
+  }
+  .klent-section__logs {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=klent.css.map */

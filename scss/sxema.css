@@ -1,0 +1,96 @@
+.sxema-section {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.sxema-section__title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sxema-section__title h1 {
+  color: #023047;
+}
+
+.sxema-content {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.sxema-title {
+  color: rgba(2, 48, 71, 0.6980392157);
+  font-size: 28px;
+}
+
+.sxema-title__mini {
+  color: rgba(2, 48, 71, 0.6980392157);
+}
+
+.sxema-boxs {
+  display: flex;
+  gap: 31px;
+  justify-content: center;
+}
+
+.sxema-content__numbers {
+  color: #FB8500;
+  font-size: 30px;
+}
+
+.sxema-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sxema-box__items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sxema-box__items h3 {
+  text-align: start;
+}
+
+.sxema-box__items h2 {
+  color: #023047;
+  text-align: start;
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 90%;
+  }
+  .sxema-section {
+    margin-top: 80px;
+  }
+  .sxema-section__title {
+    padding: 14px;
+  }
+  .icon_card-img {
+    width: 34px;
+    height: 34px;
+  }
+  .sxema-box__items {
+    width: 350px;
+    height: auto;
+    gap: 8px;
+  }
+  .sxema-boxs {
+    gap: 10px;
+  }
+  .sxema-content {
+    gap: 30px;
+  }
+  .sxema-title__mini h3 {
+    font-size: 14px;
+  }
+  .sxema-content__numbers {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=sxema.css.map */
